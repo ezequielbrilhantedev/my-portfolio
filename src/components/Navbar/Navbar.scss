@@ -1,0 +1,29 @@
+.navbar {
+  background: #000000;
+}
+
+.ulTitle {
+  display: flex;
+  list-style: none;
+  gap: 67px;
+
+  li {
+    color: #666;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    cursor: pointer;
+  }
+}
+
+.ulIcons {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+  li {
+    cursor: pointer;
+  }
+}
