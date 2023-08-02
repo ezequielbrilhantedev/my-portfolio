@@ -4,9 +4,11 @@ import App from './App.tsx';
 import './index.scss';
 import {
   RouterProvider,
+  ScrollRestoration,
   createBrowserRouter,
 } from 'react-router-dom';
 import HomeRoute from './routes/HomeRoute.tsx';
+import About from './components/About/About.tsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomeRoute />,
+      },
+      {
+        path: '/home',
+        element: <HomeRoute />,
+      },
+      {
+        path: '/sobre',
+        element: <About />,
       },
     ],
   },

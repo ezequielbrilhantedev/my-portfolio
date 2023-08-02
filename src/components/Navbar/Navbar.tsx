@@ -10,6 +10,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import './Navbar.scss';
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -28,8 +29,16 @@ export const Navbar = () => {
               }}
             >
               <ul className="ulTitle">
-                <li>Início</li>
-                <li>Sobre</li>
+                <li>
+                  <Link className="link" to="/">
+                    Início
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link" to="/sobre">
+                    Sobre
+                  </Link>
+                </li>
                 <li>Tech Stack</li>
                 <li>Contatos</li>
               </ul>

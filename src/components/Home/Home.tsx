@@ -31,12 +31,14 @@ function Home() {
               fontSize: '58px',
               fontWeight: '700',
               letterSpacing: '-1px',
-              width: '636px',
+              width: '56%',
               height: '297px',
             }}
           >
-            Olá, meu nome é Ezequiel Brilhante, e sou
-            Frontend Developer
+            Olá,
+            <br />
+            meu nome é Ezequiel,
+            <br /> e sou Frontend Developer.
           </Typography>
           <Box
             sx={{
