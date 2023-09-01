@@ -3,14 +3,13 @@ import {
   Box,
   Container,
   Toolbar,
-  Typography,
 } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 import './Navbar.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -30,14 +29,16 @@ export const Navbar = () => {
             >
               <ul className="ulTitle">
                 <li>
-                  <Link className="link" to="/">
+                  {/* <Link className="link" to="/">
                     Início
-                  </Link>
+                  </Link> */}
+                  Início
                 </li>
                 <li>
-                  <Link className="link" to="/sobre">
+                  {/* <Link className="link" to="/sobre">
                     Sobre
-                  </Link>
+                  </Link> */}
+                  Sobre
                 </li>
                 <li>Tech Stack</li>
                 <li>Contatos</li>

@@ -1,5 +1,4 @@
 import { Box, Container, Typography } from '@mui/material';
-import React from 'react';
 import ProfileImg from '../../assets/images/FotoPerfil.jpg';
 
 import './Home.scss';

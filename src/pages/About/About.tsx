@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Container,
   Box,
@@ -174,22 +173,49 @@ function About() {
           >
             Formação
           </Typography>
-          <Typography
-            sx={{
-              fontFamily: 'Poppins',
-              color: '#666',
-              fontSize: '18px',
-              fontWeight: 400,
-              fontStyle: 'normal',
-              width: '60%',
-            }}
-          >
-            The Generator App is an online tool that helps
-            you to export ready-made templates ready to work
-            as your future website. It helps you to combine
-            slides, panels and other components and export
-            it as a set of static files: HTML/CSS/JS.
-          </Typography>
+          <Box>
+            <Typography
+              sx={{
+                fontFamily: 'Poppins',
+                color: '#666',
+                fontSize: '20px',
+                fontWeight: 400,
+              }}
+            >
+              Bacharel em Sistema de Informação
+            </Typography>
+            <Typography
+              sx={{
+                fontFamily: 'Poppins',
+                color: '#a7a7a7',
+                fontSize: '12px',
+                fontWeight: 500,
+              }}
+            >
+              <Box
+                sx={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  width: '100%',
+                }}
+              >
+                <BusinessIcon /> Unifametro
+                {/* <Box
+                  sx={{
+                    width: '39%',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                  }}
+                >
+                  <div className="location">
+                    <LocationOnIcon /> Brasil
+                  </div>
+                  <Box>Janeiro 2020 - Julho 2021</Box>
+                </Box> */}
+              </Box>
+            </Typography>
+          </Box>
         </Box>
       </Container>
     </>
